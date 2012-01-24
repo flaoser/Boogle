@@ -16,4 +16,4 @@ puts "\nResults:"
 puts results
 
 puts "\nStats:"
-puts "Time to solve: %0.4f seconds" % (t2 - t1)
+puts "Found #{results.size} words in %0.4f seconds" % (t2 - t1)
